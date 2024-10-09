@@ -1,0 +1,2041 @@
+python: can't open file '/home/mariana/Projects/HR_automation/your_flask_app.py': [Errno 2] No such file or directory
+python: can't open file '/home/mariana/Projects/HR_automation/your_flask_app.py': [Errno 2] No such file or directory
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("employees")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("trainings")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:COMMIT
+ * Serving Flask app 'main'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("employees")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:PRAGMA main.table_info("trainings")
+INFO:sqlalchemy.engine.Engine:[raw sql] ()
+INFO:sqlalchemy.engine.Engine:COMMIT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 373-076-460
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:15] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:15] "[36mGET /static/logotipo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:15] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:16] "GET /files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:16] "[36mGET /static/files.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:16] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 17:57:16] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:04:18] "GET /files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:04:18] "[36mGET /static/files.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:04:18] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:04:18] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:04:18] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:40] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:40] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:40] "[36mGET /static/generate_report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:40] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:42] "GET /trainings HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:42] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:42] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:59] "[36mGET /static/logotipo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:59] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:09:59] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:10:00] "GET /files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:10:00] "[36mGET /static/files.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:10:00] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Oct/2024 18:10:00] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 09:59:35] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 09:59:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 09:59:35] "[36mGET /static/generate_report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 09:59:35] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 09:59:35] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:root:Report directory: ./reports/2024-10-09
+/home/mariana/Projects/HR_automation/main.py:128: UserWarning: Parsing dates in %d/%m/%Y format when dayfirst=False (the default) was specified. Pass `dayfirst=True` or specify a format to silence this warning.
+  df['Last Training Date'] = pd.to_datetime(df['Last Training Date'], errors='coerce')
+INFO:root:Filtered employees saved to: ./reports/Needing-Training/2024-10-09_Filtered_Employees_Needing_Training.csv
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'IT', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+/home/mariana/Projects/HR_automation/main.py:105: LangChainDeprecationWarning: The method `BaseChatModel.predict` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use invoke instead.
+  response = chat_groq.predict(prompt)
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário que trabalha em IT, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. IT Infrastructure and Cloud Computing: Esta formação é essencial para um funcionário de IT, pois lhe permite entender e gerir a infraestrutura de TI da empresa, incluindo a migração para a nuvem.
+2. IT Incident Management: Esta formação é crucial para um funcionário de IT, pois lhe permite lidar com incidentes e problemas de TI de forma eficaz, minimizando o tempo de inatividade e garantindo a continuidade dos serviços.
+3. CRM and Sales Automation: Embora possa parecer uma opção não tão óbvia, a formação em CRM e automação de vendas pode ser benéfica para um funcionário de IT, pois lhe permite entender as necessidades dos clientes e desenvolver soluções de TI que atendam às suas necessidades.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'HR', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário de RH, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Employee Engagement and Retention - Esta formação é essencial para um funcionário de RH, pois lhe permite desenvolver estratégias para motivar e manter os funcionários da empresa, melhorando a satisfação e o desempenho dos mesmos.
+
+2. Workplace Diversity and Inclusion - Esta formação é fundamental para um funcionário de RH, pois lhe permite criar um ambiente de trabalho mais diversificado e inclusivo, promovendo a igualdade de oportunidades e o respeito entre os funcionários.
+
+3. Training in Interpersonal Skills for Customer Service - Embora o RH não seja diretamente relacionado ao atendimento ao cliente, esta formação pode ser benéfica para um funcionário de RH, pois lhe permite desenvolver habilidades interpessoais essenciais para lidar com funcionários e gerentes, melhorando a comunicação e a resolução de problemas dentro da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Finance', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de 'Finance', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Investment Analysis - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e avaliar oportunidades de investimento, tornando-se mais eficaz na gestão de recursos financeiros.
+
+2. Accounting and Tax Compliance - Esta formação fornecerá ao funcionário conhecimentos sobre contabilidade e conformidade fiscal, permitindo-lhe gerenciar melhor as finanças da empresa e cumprir com os requisitos legais.
+
+3. Sales Analysis and Reporting - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e relatar resultados de vendas, tornando-se mais eficaz na tomada de decisões financeiras informadas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Operations', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de "Operations", sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Optimization of Operational Processes - Esta formação ajudará o funcionário a identificar e melhorar os processos operacionais, aumentando a eficiência e a produtividade.
+2. Strategic Sourcing - Esta formação permitirá ao funcionário desenvolver habilidades para gerenciar e otimizar a aquisição de recursos e serviços, garantindo que as necessidades da empresa sejam atendidas de forma eficaz.
+3. IT Infrastructure and Cloud Computing - Esta formação fornecerá ao funcionário conhecimentos sobre a infraestrutura de TI e computação em nuvem, permitindo que ele gerencie e mantenha a infraestrutura de TI da empresa de forma eficaz.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Customer Support', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para o departamento de 'Customer Support', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Training in Interpersonal Skills for Customer Service - Esta formação é essencial para desenvolver habilidades de comunicação eficazes e resolver problemas de forma eficiente, garantindo uma experiência de cliente satisfeita.
+2. CRM and Sales Automation - Conhecimento sobre CRM (Customer Relationship Management) e automação de vendas pode ajudar os funcionários de suporte a gerenciar melhor as interações com os clientes e a otimizar processos.
+3. Content Marketing - Esta formação pode ajudar os funcionários de suporte a entender melhor as necessidades dos clientes e a criar conteúdo relevante que atenda às suas necessidades, melhorando a experiência do cliente e aumentando a satisfação.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Sales', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Sales', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. CRM and Sales Automation - Esta formação permitirá ao funcionário otimizar o processo de vendas e gerenciar melhor as relações com os clientes.
+2. Sales Analysis and Reporting - Esta formação ajudará o funcionário a analisar e relatar os resultados das vendas de forma eficaz, permitindo uma tomada de decisão mais informada.
+3. Digital Marketing Mastery - Esta formação permitirá ao funcionário desenvolver habilidades em marketing digital, o que pode ajudar a aumentar as oportunidades de vendas e a melhorar a presença online da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Finance', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de 'Finance', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Investment Analysis - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e avaliar oportunidades de investimento, tornando-se mais eficaz na gestão de recursos financeiros.
+
+2. Accounting and Tax Compliance - Esta formação fornecerá ao funcionário conhecimentos sobre contabilidade e conformidade fiscal, permitindo-lhe gerenciar melhor as finanças da empresa e cumprir com os requisitos legais.
+
+3. Sales Analysis and Reporting - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e relatar resultados de vendas, tornando-se mais eficaz na tomada de decisões financeiras informadas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Operations', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de "Operations", sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Optimization of Operational Processes - Esta formação ajudará o funcionário a identificar e melhorar os processos operacionais, aumentando a eficiência e a produtividade.
+2. IT Infrastructure and Cloud Computing - Esta formação fornecerá ao funcionário conhecimentos sobre a infraestrutura de TI e computação em nuvem, permitindo-lhe gerenciar e manter os sistemas de informação da empresa de forma eficaz.
+3. Strategic Sourcing - Esta formação ajudará o funcionário a desenvolver habilidades para gerenciar a cadeia de suprimentos de forma estratégica, garantindo que os recursos sejam utilizados de forma eficiente e eficaz.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Procurement', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Procurement', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Strategic Sourcing: Esta formação é fundamental para os profissionais de procurement, pois lhes permite desenvolver estratégias eficazes para a aquisição de bens e serviços.
+2. Sustainable Purchasing: Esta formação é importante para os profissionais de procurement que desejam implementar práticas de compra sustentáveis e responsáveis.
+3. Labor and Contractual Law: Esta formação é útil para os profissionais de procurement que precisam entender as implicações legais dos contratos e acordos que celebram com os fornecedores.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Finance', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de 'Finance', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Investment Analysis - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e avaliar oportunidades de investimento, tornando-se mais eficaz na gestão de recursos financeiros.
+
+2. Accounting and Tax Compliance - Esta formação fornecerá ao funcionário conhecimentos sobre contabilidade e conformidade fiscal, permitindo-lhe gerenciar melhor as finanças da empresa e cumprir com os requisitos legais.
+
+3. Sales Analysis and Reporting - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e relatar resultados de vendas, tornando-se mais eficaz na tomada de decisões financeiras informadas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Operations', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de "Operations", sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Optimization of Operational Processes - Esta formação permitirá ao funcionário identificar e melhorar os processos operacionais, aumentando a eficiência e a produtividade.
+2. Strategic Sourcing - Esta formação ajudará o funcionário a desenvolver habilidades para gerenciar a cadeia de suprimentos de forma estratégica, reduzindo custos e melhorando a qualidade dos produtos ou serviços.
+3. IT Infrastructure and Cloud Computing - Esta formação permitirá ao funcionário entender como gerenciar a infraestrutura de TI e como utilizar a computação em nuvem para melhorar a eficiência e a segurança dos processos operacionais.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Sales', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Sales', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. CRM and Sales Automation - Esta formação permitirá ao funcionário otimizar o processo de vendas e gerenciar melhor as relações com os clientes.
+2. Sales Analysis and Reporting - Esta formação ajudará o funcionário a analisar e relatar os resultados das vendas de forma eficaz, permitindo uma tomada de decisão mais informada.
+3. Digital Marketing Mastery - Esta formação permitirá ao funcionário desenvolver habilidades em marketing digital, o que pode ajudar a aumentar as oportunidades de vendas e a melhorar a presença online da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'HR', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário de RH, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Employee Engagement and Retention - Esta formação é essencial para um funcionário de RH, pois lhe permite desenvolver estratégias para motivar e manter os funcionários da empresa, melhorando a satisfação e o desempenho dos mesmos.
+
+2. Workplace Diversity and Inclusion - Esta formação é fundamental para um funcionário de RH, pois lhe permite criar um ambiente de trabalho mais diversificado e inclusivo, promovendo a igualdade de oportunidades e combatendo a discriminação.
+
+3. Training in Interpersonal Skills for Customer Service - Esta formação é benéfica para um funcionário de RH, pois lhe permite desenvolver habilidades interpessoais essenciais para lidar com funcionários e clientes, melhorando a comunicação e a resolução de problemas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Procurement', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Procurement', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Strategic Sourcing: Esta formação é fundamental para os profissionais de procurement, pois lhes permite desenvolver estratégias eficazes para aquisição de bens e serviços, garantindo a melhor relação qualidade-preço.
+2. Sustainable Purchasing: Esta formação é essencial para os profissionais de procurement que desejam implementar práticas de compra sustentáveis, reduzindo o impacto ambiental e social das aquisições.
+3. Labor and Contractual Law: Esta formação é importante para os profissionais de procurement, pois lhes permite compreender as implicações legais das aquisições e contratos, garantindo que as transações sejam feitas de forma ética e legal.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Sales', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Sales', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. CRM and Sales Automation - Esta formação permitirá ao funcionário otimizar o processo de vendas e gerenciar melhor as relações com os clientes.
+2. Sales Analysis and Reporting - Esta formação ajudará o funcionário a analisar e relatar os resultados das vendas de forma eficaz, permitindo uma tomada de decisão mais informada.
+3. Digital Marketing Mastery - Esta formação permitirá ao funcionário desenvolver habilidades em marketing digital, o que pode ajudar a aumentar as oportunidades de vendas e a melhorar a presença online da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'HR', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário de RH, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Employee Engagement and Retention - Esta formação é essencial para um funcionário de RH, pois lhe permite desenvolver estratégias para motivar e manter os funcionários da empresa, melhorando a satisfação e o desempenho dos mesmos.
+
+2. Workplace Diversity and Inclusion - Esta formação é fundamental para um funcionário de RH, pois lhe permite criar um ambiente de trabalho mais diversificado e inclusivo, promovendo a igualdade de oportunidades e o respeito entre os funcionários.
+
+3. Training in Interpersonal Skills for Customer Service - Esta formação é benéfica para um funcionário de RH, pois lhe permite desenvolver habilidades interpessoais essenciais para lidar com os funcionários e clientes da empresa, melhorando a comunicação e a resolução de problemas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Finance', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de 'Finance', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Investment Analysis - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e avaliar oportunidades de investimento, tornando-se mais eficaz na gestão de recursos financeiros.
+
+2. Accounting and Tax Compliance - Esta formação fornecerá ao funcionário conhecimentos sobre contabilidade e conformidade fiscal, permitindo-lhe gerenciar melhor as finanças da empresa e cumprir com os requisitos legais.
+
+3. Sales Analysis and Reporting - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e relatar resultados de vendas, tornando-se mais eficaz na tomada de decisões financeiras informadas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'R&D', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário de R&D, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Product Research and Development - Esta formação é diretamente relacionada com a área de R&D e pode ajudar o funcionário a desenvolver habilidades e conhecimentos mais especializados em pesquisa e desenvolvimento de produtos.
+
+2. Innovation Management - Esta formação pode ajudar o funcionário a gerenciar e implementar projetos de inovação de forma eficaz, o que é fundamental em R&D.
+
+3. Intellectual Property Protection - Esta formação é importante para garantir que as inovações e desenvolvimentos realizados pelo funcionário sejam protegidos por direitos de propriedade intelectual, evitando assim perdas de conhecimento e tecnologia.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Procurement', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Procurement', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Strategic Sourcing: Esta formação é fundamental para os profissionais de procurement, pois lhes permite desenvolver estratégias eficazes para a aquisição de bens e serviços.
+2. Sustainable Purchasing: Esta formação é importante para os profissionais de procurement que desejam implementar práticas de compra sustentáveis e responsáveis.
+3. Labor and Contractual Law: Esta formação é útil para os profissionais de procurement que precisam entender as implicações legais dos contratos e acordos que celebram com os fornecedores.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Sales', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Sales', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. CRM and Sales Automation - Esta formação permitirá ao funcionário otimizar o processo de vendas e gerenciar melhor as relações com os clientes.
+2. Sales Analysis and Reporting - Esta formação ajudará o funcionário a analisar e relatar os resultados das vendas de forma eficaz, permitindo uma tomada de decisão mais informada.
+3. Digital Marketing Mastery - Esta formação permitirá ao funcionário desenvolver habilidades em marketing digital, o que pode ajudar a aumentar as oportunidades de vendas e a melhorar a presença online da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'HR', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário de RH, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Employee Engagement and Retention - Esta formação é essencial para um funcionário de RH, pois lhe permite desenvolver estratégias para motivar e manter os funcionários da empresa, melhorando a satisfação e o desempenho dos mesmos.
+
+2. Workplace Diversity and Inclusion - Esta formação é fundamental para um funcionário de RH, pois lhe permite criar um ambiente de trabalho mais diversificado e inclusivo, promovendo a igualdade de oportunidades e o respeito entre os funcionários.
+
+3. Training in Interpersonal Skills for Customer Service - Esta formação é benéfica para um funcionário de RH, pois lhe permite desenvolver habilidades interpessoais essenciais para lidar com os funcionários e clientes da empresa, melhorando a comunicação e a resolução de problemas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Finance', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de 'Finance', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Investment Analysis - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e avaliar oportunidades de investimento, tornando-se mais eficaz na gestão de recursos financeiros.
+
+2. Accounting and Tax Compliance - Esta formação fornecerá ao funcionário conhecimentos sobre contabilidade e conformidade fiscal, permitindo-lhe gerenciar melhor as finanças da empresa e cumprir com os requisitos legais.
+
+3. Sales Analysis and Reporting - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e relatar resultados de vendas, tornando-se mais eficaz na tomada de decisões financeiras informadas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Customer Support', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para o departamento de 'Customer Support', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Training in Interpersonal Skills for Customer Service - Esta formação é essencial para desenvolver habilidades de comunicação eficazes e resolver problemas de forma eficiente, garantindo uma experiência de cliente satisfeita.
+2. CRM and Sales Automation - Esta formação permitirá ao funcionário gerenciar e automatizar processos de vendas e relacionamento com clientes de forma mais eficiente, melhorando a produtividade e a satisfação do cliente.
+3. Content Marketing - Esta formação ajudará o funcionário a criar conteúdo relevante e atraente para os clientes, melhorando a experiência do cliente e aumentando a satisfação e a fidelidade.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Legal', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para o funcionário que trabalha na área de "Legal", sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Labor and Contractual Law - Esta formação é essencial para um funcionário de "Legal" que precisa entender as leis laborais e contratuais para garantir que a empresa esteja em conformidade com as regulamentações.
+2. Intellectual Property Protection - Esta formação é importante para um funcionário de "Legal" que precisa proteger os direitos de propriedade intelectual da empresa e garantir que os seus ativos sejam protegidos.
+3. Accounting and Tax Compliance - Esta formação é benéfica para um funcionário de "Legal" que precisa entender as implicações fiscais e contabilísticas das decisões da empresa e garantir que a empresa esteja em conformidade com as regulamentações fiscais.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Sales', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Sales', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. CRM and Sales Automation - Esta formação permitirá ao funcionário otimizar o processo de vendas e gerenciar melhor as relações com os clientes.
+2. Sales Analysis and Reporting - Esta formação ajudará o funcionário a analisar e relatar os resultados das vendas de forma eficaz, permitindo uma tomada de decisão mais informada.
+3. Digital Marketing Mastery - Esta formação permitirá ao funcionário desenvolver habilidades em marketing digital, o que pode ajudar a aumentar as oportunidades de vendas e a melhorar a presença online da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'IT', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: As três opções de formação mais relevantes e benéficas para um funcionário de IT são:
+
+1. IT Infrastructure and Cloud Computing
+2. IT Incident Management
+3. CRM and Sales Automation
+
+Essas opções de formação são diretamente relacionadas às necessidades e responsabilidades de um funcionário de TI, permitindo que ele desenvolva habilidades essenciais para gerenciar e manter a infraestrutura de TI, resolver incidentes e problemas técnicos, e automatizar processos de vendas e marketing.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Operations', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de "Operations", sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Optimization of Operational Processes - Esta formação permitirá ao funcionário identificar e melhorar os processos operacionais, aumentando a eficiência e a produtividade.
+2. Strategic Sourcing - Esta formação ajudará o funcionário a desenvolver habilidades para gerenciar a cadeia de suprimentos de forma estratégica, reduzindo custos e melhorando a qualidade dos produtos ou serviços.
+3. IT Infrastructure and Cloud Computing - Esta formação permitirá ao funcionário entender como gerenciar a infraestrutura de TI e como utilizar a computação em nuvem para melhorar a eficiência e a segurança dos processos operacionais.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Customer Support', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para o departamento de 'Customer Support', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Training in Interpersonal Skills for Customer Service - Esta formação é essencial para desenvolver habilidades de comunicação eficazes e resolver problemas de forma eficiente, garantindo uma experiência de cliente satisfeita.
+2. CRM and Sales Automation - Esta formação permitirá ao funcionário gerenciar e automatizar processos de vendas e relacionamento com clientes de forma mais eficiente, melhorando a produtividade e a satisfação do cliente.
+3. Content Marketing - Esta formação ajudará o funcionário a criar conteúdo relevante e atraente para os clientes, melhorando a experiência do cliente e aumentando a satisfação e a fidelidade.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Procurement', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Procurement', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Strategic Sourcing: Esta formação é fundamental para os profissionais de procurement, pois lhes permite desenvolver estratégias eficazes para aquisição de bens e serviços, garantindo a melhor relação qualidade-preço.
+2. Sustainable Purchasing: Esta formação é essencial para os profissionais de procurement que desejam implementar práticas de compra sustentáveis, reduzindo o impacto ambiental e social das aquisições.
+3. Labor and Contractual Law: Esta formação é importante para os profissionais de procurement, pois lhes permite compreender as implicações legais das aquisições e contratos, garantindo que as transações sejam feitas de forma ética e legal.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Sales', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Sales', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. CRM and Sales Automation - Esta formação permitirá ao funcionário otimizar o processo de vendas e gerenciar melhor as relações com os clientes.
+2. Sales Analysis and Reporting - Esta formação ajudará o funcionário a analisar e relatar os resultados das vendas de forma eficaz, permitindo uma tomada de decisão mais informada.
+3. Digital Marketing Mastery - Esta formação permitirá ao funcionário desenvolver habilidades em marketing digital, o que pode ajudar a aumentar as oportunidades de vendas e a melhorar a presença online da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'IT', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário que trabalha em IT, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. IT Infrastructure and Cloud Computing: Esta formação é essencial para um funcionário de IT, pois lhe permite entender e gerir a infraestrutura de TI da empresa, incluindo a migração para a nuvem.
+2. IT Incident Management: Esta formação é crucial para um funcionário de IT, pois lhe permite lidar com incidentes e problemas de TI de forma eficaz, minimizando o tempo de inatividade e garantindo a continuidade dos serviços.
+3. CRM and Sales Automation: Embora possa parecer uma opção não tão óbvia, a formação em CRM e automação de vendas pode ser benéfica para um funcionário de IT, pois lhe permite entender as necessidades dos clientes e desenvolver soluções de TI que atendam às suas necessidades.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'HR', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário de RH, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Employee Engagement and Retention - Esta formação é essencial para um funcionário de RH, pois lhe permite desenvolver estratégias para motivar e manter os funcionários da empresa, melhorando a satisfação e o desempenho dos mesmos.
+
+2. Workplace Diversity and Inclusion - Esta formação é fundamental para um funcionário de RH, pois lhe permite criar um ambiente de trabalho mais diversificado e inclusivo, promovendo a igualdade de oportunidades e o respeito entre os funcionários.
+
+3. Training in Interpersonal Skills for Customer Service - Esta formação é benéfica para um funcionário de RH, pois lhe permite desenvolver habilidades interpessoais essenciais para lidar com os funcionários e clientes da empresa, melhorando a comunicação e a resolução de problemas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Finance', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de 'Finance', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Investment Analysis - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e avaliar oportunidades de investimento, tornando-se mais eficaz na gestão de recursos financeiros.
+
+2. Accounting and Tax Compliance - Esta formação fornecerá ao funcionário conhecimentos sobre contabilidade e conformidade fiscal, permitindo-lhe gerenciar melhor as finanças da empresa e cumprir com os requisitos legais.
+
+3. Sales Analysis and Reporting - Esta formação permitirá ao funcionário desenvolver habilidades para analisar e relatar resultados de vendas, tornando-se mais eficaz na tomada de decisões financeiras informadas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Customer Support', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para o departamento de 'Customer Support', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Training in Interpersonal Skills for Customer Service - Esta formação é essencial para desenvolver habilidades de comunicação eficazes e resolver problemas de forma eficiente, garantindo uma experiência de cliente satisfeita.
+2. CRM and Sales Automation - Conhecimento sobre CRM (Customer Relationship Management) e automação de vendas pode ajudar os funcionários de suporte a gerenciar melhor as interações com os clientes e a otimizar processos.
+3. Content Marketing - Esta formação pode ajudar os funcionários de suporte a entender melhor as necessidades dos clientes e a criar conteúdo relevante que atenda às suas necessidades, melhorando a experiência do cliente e aumentando a satisfação.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Procurement', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Procurement', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Strategic Sourcing: Esta formação é fundamental para os profissionais de procurement, pois lhes permite desenvolver estratégias eficazes para aquisição de bens e serviços, garantindo a melhor relação qualidade-preço.
+2. Sustainable Purchasing: Esta formação é essencial para os profissionais de procurement que desejam implementar práticas de compra sustentáveis, reduzindo o impacto ambiental e social das aquisições.
+3. Labor and Contractual Law: Esta formação é importante para os profissionais de procurement, pois lhes permite compreender as implicações legais das aquisições e contratos, garantindo que as transações sejam feitas de forma ética e legal.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Marketing', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para o departamento de Marketing, sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Content Marketing: Esta formação permitirá ao funcionário desenvolver habilidades para criar e distribuir conteúdo relevante e valioso para atrair e reter uma audiência claramente definida.
+2. Digital Marketing Mastery: Esta formação fornecerá ao funcionário conhecimentos avançados em marketing digital, incluindo estratégias de SEO, publicidade online, email marketing e análise de dados.
+3. Branding and Visual Identity: Esta formação ajudará o funcionário a desenvolver uma estratégia de marca eficaz, incluindo a criação de uma identidade visual coerente e a gestão da imagem da marca.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Sales', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Sales', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. CRM and Sales Automation - Esta formação permitirá ao funcionário otimizar o processo de vendas e gerenciar melhor as relações com os clientes.
+2. Sales Analysis and Reporting - Esta formação ajudará o funcionário a analisar e relatar os resultados das vendas de forma eficaz, permitindo uma tomada de decisão mais informada.
+3. Digital Marketing Mastery - Esta formação permitirá ao funcionário desenvolver habilidades em marketing digital, o que pode ajudar a aumentar as oportunidades de vendas e a melhorar a presença online da empresa.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Operations', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de "Operations", sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Optimization of Operational Processes - Esta formação permitirá ao funcionário identificar e melhorar os processos operacionais, aumentando a eficiência e a produtividade.
+2. Strategic Sourcing - Esta formação ajudará o funcionário a desenvolver habilidades para gerenciar a cadeia de suprimentos de forma estratégica, reduzindo custos e melhorando a qualidade dos produtos ou serviços.
+3. IT Infrastructure and Cloud Computing - Esta formação permitirá ao funcionário entender como gerenciar a infraestrutura de TI e como utilizar a computação em nuvem para melhorar a eficiência e a segurança dos processos operacionais.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'HR', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para um funcionário de RH, sugiro as seguintes 3 opções de formação mais relevantes e benéficas:
+
+1. Employee Engagement and Retention - Esta formação é essencial para um funcionário de RH, pois lhe permite desenvolver estratégias para motivar e manter os funcionários da empresa, melhorando a satisfação e o desempenho dos mesmos.
+
+2. Workplace Diversity and Inclusion - Esta formação é fundamental para um funcionário de RH, pois lhe permite criar um ambiente de trabalho mais diversificado e inclusivo, promovendo a igualdade de oportunidades e o respeito entre os funcionários.
+
+3. Training in Interpersonal Skills for Customer Service - Esta formação é benéfica para um funcionário de RH, pois lhe permite desenvolver habilidades interpessoais essenciais para lidar com os funcionários e clientes da empresa, melhorando a comunicação e a resolução de problemas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Operations', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para a área de "Operations", sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Optimization of Operational Processes - Esta formação permitirá ao funcionário identificar e implementar melhorias nos processos operacionais, aumentando a eficiência e a produtividade.
+2. Strategic Sourcing - Esta formação ajudará o funcionário a desenvolver habilidades para gerenciar e otimizar a cadeia de suprimentos, garantindo que os recursos sejam utilizados de forma eficaz.
+3. IT Infrastructure and Cloud Computing - Esta formação permitirá ao funcionário entender como gerenciar e implementar infraestruturas de TI eficazes, garantindo a segurança e a escalabilidade dos sistemas.
+INFO:root:Generated prompt: 
+    A IA deverá começar a responder sem saudação inicial.
+
+    A IA deverá responder na língua em que foi feita a pergunta. 
+
+    Por favor, responde apenas em português de Portugal (nunca português do Brasil) e justifica resposta com base no seu conhecimento e de forma sucinta.
+
+    A IA é prestável e informativa, fornecendo uma resposta apenas com base nos documentos fornecidos.
+
+    Se a IA não tiver informações ou se as informações não estiverem presentes nos documentos fornecidos, a IA declara claramente que não sabe ou que não tem acesso a essas informações.
+
+    Se a IA não souber a resposta a uma pergunta, ela diz a verdade e não inventa uma resposta.
+
+    Dada a seguinte lista de opções de formação disponíveis: 
+    
+    Labor and Contractual Law
+Product Research and Development
+Strategic Sourcing
+Branding and Visual Identity
+CRM and Sales Automation
+IT Infrastructure and Cloud Computing
+Employee Engagement and Retention
+Investment Analysis
+Optimization of Operational Processes
+Training in Interpersonal Skills for Customer Service
+Intellectual Property Protection
+Innovation Management
+Sustainable Purchasing
+Content Marketing
+Sales Analysis and Reporting
+IT Incident Management
+Workplace Diversity and Inclusion
+Accounting and Tax Compliance
+Digital Marketing Mastery
+    
+    Para 'Procurement', sugira as 3 opções de formação mais relevantes e benéficas para o funcionário.
+    
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Groq API response: Para 'Procurement', sugiro as seguintes 3 opções de formação mais relevantes e benéficas para o funcionário:
+
+1. Strategic Sourcing: Esta formação é fundamental para os profissionais de procurement, pois lhes permite desenvolver estratégias eficazes para aquisição de bens e serviços, garantindo a melhor relação qualidade-preço.
+2. Sustainable Purchasing: Esta formação é essencial para os profissionais de procurement que desejam implementar práticas de compra sustentáveis, reduzindo o impacto ambiental e social das aquisições.
+3. Labor and Contractual Law: Esta formação é importante para os profissionais de procurement, pois lhes permite compreender as implicações legais das aquisições e contratos, garantindo que as transações sejam feitas de forma ética e legal.
+INFO:root:Suggestions DataFrame created with columns: Index(['Employee ID', 'name', 'suggestions'], dtype='object')
+INFO:root:Training suggestions saved to: ./reports/2024-10-09/2024-10-09_Employee_Training_Suggestions.csv
+INFO:root:Generating PDF for employees: ./reports/2024-10-09/2024-10-09_Employees_Training_Report.pdf
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:GDEF dropped
+INFO:fontTools.subset:GPOS dropped
+INFO:fontTools.subset:GSUB dropped
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'glyf': 70 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', 'A', 'B', 'C', 'CR', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'NULL', 'O', 'P', 'R', 'S', 'T', 'V', 'a', 'aacute', 'ampersand', 'atilde', 'b', 'braceleft', 'braceright', 'c', 'ccedilla', 'comma', 'd', 'e', 'eacute', 'ecircumflex', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'iacute', 'k', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'ordmasculine', 'p', 'period', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uacute', 'v', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 53, 54, 55, 57, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 93, 94, 96, 124, 163, 165, 169, 171, 172, 175, 181, 188]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 75 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', 'A', 'B', 'C', 'CR', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'NULL', 'O', 'P', 'R', 'S', 'T', 'V', 'a', 'aacute', 'acute', 'ampersand', 'atilde', 'b', 'braceleft', 'braceright', 'c', 'ccedilla', 'cedilla', 'circumflex', 'comma', 'd', 'dotlessi', 'e', 'eacute', 'ecircumflex', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'iacute', 'k', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'ordmasculine', 'p', 'period', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'tilde', 'two', 'u', 'uacute', 'v', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 53, 54, 55, 57, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 93, 94, 96, 118, 122, 124, 163, 165, 169, 171, 172, 175, 181, 188, 330, 337, 943]
+INFO:fontTools.subset:Retaining 75 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:STAT subsetting not needed
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0, 1]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:GDEF dropped
+INFO:fontTools.subset:GPOS dropped
+INFO:fontTools.subset:GSUB dropped
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'glyf': 43 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', 'CR', 'D', 'E', 'F', 'I', 'L', 'N', 'NULL', 'O', 'R', 'T', 'a', 'atilde', 'b', 'braceleft', 'braceright', 'ccedilla', 'd', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 39, 40, 41, 44, 47, 49, 50, 53, 55, 68, 69, 71, 72, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 92, 94, 96, 165, 169, 181]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 47 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', 'CR', 'D', 'E', 'F', 'I', 'L', 'N', 'NULL', 'O', 'R', 'T', 'a', 'acute', 'atilde', 'b', 'braceleft', 'braceright', 'c', 'ccedilla', 'cedilla', 'd', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'tilde', 'two', 'y', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 39, 40, 41, 44, 47, 49, 50, 53, 55, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 92, 94, 96, 118, 122, 165, 169, 181, 337]
+INFO:fontTools.subset:Retaining 47 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:STAT subsetting not needed
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0, 1]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:name pruned
+INFO:root:PDF generated successfully: ./reports/2024-10-09/2024-10-09_Employees_Training_Report.pdf
+INFO:root:Generating PDF for suggestions: ./reports/2024-10-09/2024-10-09_Employee_Training_Suggestions_Report.pdf
+/home/mariana/Projects/HR_automation/main.py:355: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 10, f"ID {row.get('Employee ID', '')} | Nome: {row.get('name', '')}", ln=True)
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:GDEF dropped
+INFO:fontTools.subset:GPOS dropped
+INFO:fontTools.subset:GSUB dropped
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'glyf': 78 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', 'A', 'B', 'C', 'CR', 'D', 'E', 'F', 'H', 'I', 'L', 'M', 'NULL', 'O', 'P', 'R', 'S', 'T', 'V', 'W', 'a', 'aacute', 'agrave', 'ampersand', 'atilde', 'b', 'braceleft', 'braceright', 'c', 'ccedilla', 'colon', 'comma', 'd', 'e', 'eacute', 'ecircumflex', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'iacute', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'otilde', 'p', 'parenleft', 'parenright', 'period', 'q', 'quotedbl', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uacute', 'v', 'w', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5, 9, 10, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 38, 39, 40, 41, 43, 44, 47, 48, 50, 51, 53, 54, 55, 57, 58, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 96, 162, 163, 165, 169, 171, 172, 175, 181, 183, 188]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 84 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', 'A', 'B', 'C', 'CR', 'D', 'E', 'F', 'H', 'I', 'L', 'M', 'NULL', 'O', 'P', 'R', 'S', 'T', 'V', 'W', 'a', 'aacute', 'acute', 'agrave', 'ampersand', 'atilde', 'b', 'braceleft', 'braceright', 'c', 'ccedilla', 'cedilla', 'circumflex', 'colon', 'comma', 'd', 'dotlessi', 'e', 'eacute', 'ecircumflex', 'eight', 'f', 'five', 'four', 'g', 'grave', 'h', 'hyphen', 'i', 'iacute', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'otilde', 'p', 'parenleft', 'parenright', 'period', 'q', 'quotedbl', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'tilde', 'two', 'u', 'uacute', 'v', 'w', 'x', 'y', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 5, 9, 10, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 38, 39, 40, 41, 43, 44, 47, 48, 50, 51, 53, 54, 55, 57, 58, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 96, 118, 122, 162, 163, 165, 169, 171, 172, 175, 181, 183, 188, 330, 337, 943]
+INFO:fontTools.subset:Retaining 84 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:STAT subsetting not needed
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0, 1]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:name pruned
+INFO:fontTools.subset:maxp pruned
+INFO:fontTools.subset:cmap pruned
+INFO:fontTools.subset:post pruned
+INFO:fontTools.subset:GDEF dropped
+INFO:fontTools.subset:GPOS dropped
+INFO:fontTools.subset:GSUB dropped
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:Added gid0 to subset
+INFO:fontTools.subset:Added first four glyphs to subset
+INFO:fontTools.subset:Closing glyph list over 'glyf': 64 glyphs before
+INFO:fontTools.subset:Glyph names: ['.notdef', 'A', 'B', 'C', 'CR', 'D', 'E', 'F', 'G', 'I', 'J', 'L', 'M', 'N', 'NULL', 'O', 'P', 'R', 'S', 'V', 'a', 'aacute', 'atilde', 'b', 'bar', 'braceleft', 'braceright', 'c', 'ccedilla', 'colon', 'd', 'e', 'eacute', 'ecircumflex', 'eight', 'f', 'five', 'four', 'g', 'h', 'i', 'iacute', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'otilde', 'p', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 38, 39, 40, 41, 42, 44, 45, 47, 48, 49, 50, 51, 53, 54, 57, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 93, 94, 95, 96, 163, 165, 169, 171, 172, 175, 181, 183]
+INFO:fontTools.subset:Closed glyph list over 'glyf': 69 glyphs after
+INFO:fontTools.subset:Glyph names: ['.notdef', 'A', 'B', 'C', 'CR', 'D', 'E', 'F', 'G', 'I', 'J', 'L', 'M', 'N', 'NULL', 'O', 'P', 'R', 'S', 'V', 'a', 'aacute', 'acute', 'atilde', 'b', 'bar', 'braceleft', 'braceright', 'c', 'ccedilla', 'cedilla', 'circumflex', 'colon', 'd', 'dotlessi', 'e', 'eacute', 'ecircumflex', 'eight', 'f', 'five', 'four', 'g', 'h', 'i', 'iacute', 'l', 'm', 'n', 'nine', 'o', 'oacute', 'one', 'otilde', 'p', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'tilde', 'two', 'u', 'v', 'z', 'zero']
+INFO:fontTools.subset:Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 37, 38, 39, 40, 41, 42, 44, 45, 47, 48, 49, 50, 51, 53, 54, 57, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 93, 94, 95, 96, 118, 122, 163, 165, 169, 171, 172, 175, 181, 183, 330, 337, 943]
+INFO:fontTools.subset:Retaining 69 glyphs
+INFO:fontTools.subset:head subsetting not needed
+INFO:fontTools.subset:hhea subsetting not needed
+INFO:fontTools.subset:maxp subsetting not needed
+INFO:fontTools.subset:OS/2 subsetting not needed
+INFO:fontTools.subset:hmtx subsetted
+INFO:fontTools.subset:cmap subsetted
+INFO:fontTools.subset:fpgm subsetting not needed
+INFO:fontTools.subset:prep subsetting not needed
+INFO:fontTools.subset:cvt  subsetting not needed
+INFO:fontTools.subset:loca subsetting not needed
+INFO:fontTools.subset:post subsetted
+INFO:fontTools.subset:gasp subsetting not needed
+INFO:fontTools.subset:STAT subsetting not needed
+INFO:fontTools.subset:name subsetting not needed
+INFO:fontTools.subset:glyf subsetted
+INFO:fontTools.subset:head pruned
+INFO:fontTools.subset:OS/2 Unicode ranges pruned: [0, 1]
+INFO:fontTools.subset:OS/2 CodePage ranges pruned: [0]
+INFO:fontTools.subset:glyf pruned
+INFO:fontTools.subset:name pruned
+INFO:root:PDF generated successfully: ./reports/2024-10-09/2024-10-09_Employee_Training_Suggestions_Report.pdf
+INFO:root:Attached file: ./reports/2024-10-09/2024-10-09_Employees_Training_Report.pdf
+INFO:root:Attached file: ./reports/2024-10-09/2024-10-09_Employee_Training_Suggestions_Report.pdf
+INFO:root:Connecting to the email server...
+INFO:root:Login successful.
+INFO:root:Email sent successfully to noneexample8@gmail.com
+INFO:root:Email with report sent successfully.
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:02:23] "GET /generate-report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:02:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:03:29] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:03:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:03:29] "[36mGET /static/generate_report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:03:29] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:03:30] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:03:30] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:06:34] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:06:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:06:34] "[36mGET /static/generate_report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:06:34] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:06:34] "[36mGET /static/background-image.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:06:34] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:02] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:02] "[36mGET /static/generate_report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:02] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:02] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:31] "GET /reports HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:31] "[36mGET /static/generate_report.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2024 10:07:32] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/mariana/Projects/HR_automation/test.py', reloading
+Employees DataFrame columns: ['Employee ID', 'Name', 'Department', 'Start Date', 'Termination Date', 'Last Training Date', 'Email', 'Unnamed: 7']
+Saving PDF file: ./reports/2024-10-09/2024-10-09_Employees_Training_Report.pdf
+Suggestions DataFrame columns: ['Unnamed: 0', 'Employee ID', 'name', 'suggestions']
+Saving PDF file: ./reports/2024-10-09/2024-10-09_Employee_Training_Suggestions_Report.pdf

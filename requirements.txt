@@ -1,0 +1,10 @@
+pandas
+fpdf2
+smtplib
+sqlalchemy
+langchain-community
+groq
+python-dotenv
+langchain
+llama
+

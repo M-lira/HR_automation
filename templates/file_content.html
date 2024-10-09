@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ficheiro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}" />
+  </head>
+
+  <body class="body">
+    <div class="sidebar">
+      <div class="sidebar-logo">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo" />
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="/">Página Inicial</a></li>
+        <li><a href="/files">Histórico</a></li>
+        <li><a href="/employees">Lista de Colaboradores</a></li>
+        <li><a href="/trainings">Lista de Formações</a></li>
+        <li><a href="/reports">Gerar relatórios</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div class="content-box">
+        <h1 class="content-box-header">Conteúdo do Ficheiro</h1>
+        <p><strong> Nome do ficheiro: </strong>  {{ filename }}</p>  
+        <br>
+        {% if content %}
+        <pre id="file-content" class="file-content" style="display: none;">{{ content }}</pre>
+        <div id="table-container"></div>
+        <script>
+          function parseCSV(content) {
+            const rows = content.trim().split("\n");
+            const headers = rows[0].split(";");
+            const tableRows = rows.slice(1).map((row) => row.split(";"));
+
+            return { headers, tableRows };
+          }
+
+          function createTable(headers, tableRows, columnsToRemove) {
+            
+            const filteredHeaders = headers.filter((_, index) => !columnsToRemove.includes(index));
+            const filteredRows = tableRows.map(row => row.filter((_, index) => !columnsToRemove.includes(index)));
+
+            let table = "<table>";
+            table += "<thead><tr>";
+            filteredHeaders.forEach((header) => {
+              table += `<th>${header}</th>`;
+            });
+            table += "</tr></thead>";
+            table += "<tbody>";
+            filteredRows.forEach((row) => {
+              table += "<tr>";
+              row.forEach((cell) => {
+                table += `<td>${cell}</td>`;
+              });
+              table += "</tr>";
+            });
+            table += "</tbody></table>";
+            return table;
+          }
+
+          const content = document.getElementById("file-content").innerText;
+          const { headers, tableRows } = parseCSV(content);
+
+          const columnsToRemove = [3,4,7]; // Remover colunas indesejáveis
+
+          const tableHTML = createTable(headers, tableRows, columnsToRemove);
+          document.getElementById("table-container").innerHTML = tableHTML;
+        </script>
+        {% else %}
+        <p>Nenhum conteúdo disponível.</p>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

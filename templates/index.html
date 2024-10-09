@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="/static/home.css">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <style>
+        /* Initially hide the message */
+        #hiddenMessage {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="/static/logotipo.png" alt="Logo" class="logo">
+        <h1>Gestão de formação</h1>
+        <p>Para aceder ao histórico de funcionários a precisar de formação</p>
+        <p><a href="/files">clique aqui</a></p>
+    </div>
+</body>
+</html>

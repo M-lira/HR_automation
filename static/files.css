@@ -1,0 +1,339 @@
+body {
+    background-color: white;
+    background-image: url('/static/background-image.png'); 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 4px 10px rgba(20, 20, 20, 0.8); 
+    border-radius: 10px; 
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.scroll-container {
+    max-height: 550px; 
+    padding: 10px;
+    overflow-y: auto;  
+}
+
+/* Logo */
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+    padding: 35px;
+}
+
+h1 {
+    font-size: 3.7em;
+    color: #000000;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #34495e;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #af8f62;
+    font-weight: bold;
+    border: 2px solid #af8f62;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    display: inline-block; 
+    max-width: 250px; 
+    margin: 10px auto; 
+    box-sizing: border-box; 
+}
+
+#file-list {
+    list-style-type: none; 
+    
+}
+
+#file-list li {
+    margin: 10px; 
+}
+
+a.file-a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #af8f62;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    display: inline-block; 
+    max-width: 1350px; 
+    box-sizing: border-box; 
+}
+
+a:hover {
+    list-style-type: none;
+    background-color: #af8f62;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(20, 20, 20, 0.5); 
+}
+
+/* Global Styles */
+.page-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    background-color: #ecebe9;
+}
+
+/* Background Image */
+.page-body::before {
+    content: ''; 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6; 
+    z-index: -1;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 4px 10px rgba(20, 20, 20, 0.8); 
+}
+
+.sidebar-logo {
+    padding: 40px;
+    width: 150px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    margin: 20px 0;
+}
+
+.sidebar-menu a {
+    color: #000000; 
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    font-weight: bold;
+}
+
+.sidebar-menu a:hover {
+    background-color: #af8f62; 
+    color: #ffffff;
+}
+
+
+/* Main Content Area */
+
+.scroll-area {
+    max-height: 550px; 
+    padding: 10px;
+    overflow-y: auto;  
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    width: calc(100% - 250px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content Box Styling */
+.content-box {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); 
+    border-radius: 20px; 
+    text-align: center;
+    max-width: 1330px;
+    width: 100%;
+    height: 805px;
+    box-sizing: border-box;
+}
+
+/* Heading */
+.content-box h1 {
+    font-size: 3.5em;
+    color: #af8f62;
+    text-decoration: bold;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #e9edf0;
+}
+
+.table th {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Content Box for Employees */
+.employee-box {
+    margin-left: 300px; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+/* Header for Employees */
+.employee-header {
+    margin: 20px 0; 
+    text-align: center; 
+    color: #343a40; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+/* Table styles for Employees */
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.employee-table th, .employee-table td {
+    padding: 12px; 
+    text-align: left; 
+    border-bottom: 1px solid #dee2e6;
+}
+
+.employee-table th {
+    background-color: #343a40; 
+    color: #ffffff; 
+}
+
+.employee-table tr:hover {
+    background-color: #f1f1f1; 
+}
+
+
+/* File List Styling */
+.file-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+   
+}
+
+.file-item {
+    background-color: #ffffff; 
+    border: 3px solid #af8f62; 
+    border-radius: 9px;
+    margin: 25px; 
+    margin-left: 190px;
+    transition: box-shadow 0.3s ease; 
+    max-width: 800px; 
+    padding: 20px; 
+    width: 100%; 
+    font-weight: bold;
+    color: #333;
+}
+
+.file-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+    
+}
+
+.file-link {
+    display: block; 
+    padding: 15px; 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+}
+
+.file-link:hover {
+    background-color: #af8f62; 
+    color: white; 
+}
+
+/* Additional Styles for File Name and Content */
+.file-name {
+    margin-top: 20px; 
+    font-size: 1.5em; 
+    color: #444;
+}
+
+.file-content {
+    margin-top: 10px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px; 
+    padding: 10px; 
+    overflow-x: auto; 
+    white-space: pre-wrap; 
+    font-family: monospace; 
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .link {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}

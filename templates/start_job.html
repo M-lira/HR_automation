@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Trabalho</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/static/generate_report.css">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <style>
+        /* Initially hide the status message */
+        #statusMessage {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <img src="/static/logo.png" alt="Logo" class="logo"> 
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a href="/files">Histórico</a></li>
+            <li><a href="/employees">Lista de Colaboradores</a></li>
+            <li><a href="/trainings">Lista de Formações</a></li>
+            <li><a href="/reports">Gerar relatório</a></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <h1>Gerar relatório</h1>
+        
+        <p>
+            <a href="/generate-report" id="generateReportLink">clique aqui</a>
+        </p>
+
+        <div class="status" id="statusMessage">
+            <p></p> <!-- Javascript vai preencher automaticamente -->
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#generateReportLink").click(function(event){
+                event.preventDefault(); 
+
+                // mostrar mensagem inicial
+                $("#statusMessage p").text("Em breve irá receber um email com os relatórios gerados.");
+                $("#statusMessage").fadeIn(); // mostrar mensagem 
+
+                $.ajax({
+                    url: "/generate-report", 
+                    method: "GET", 
+                    success: function(response) {
+                        
+                        $("#statusMessage p").text(response.message); // update com outra mensagem
+                    },
+                    error: function(xhr) {
+                
+                        $("#statusMessage p").text(xhr.responseJSON.error || "Erro desconhecido."); // mostrar mensagem de error
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

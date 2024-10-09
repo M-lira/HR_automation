@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de ficheiros</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='files.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <img src="/static/logo.png" alt="Logo" class="logo">
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a href="/files">Histórico</a></li>
+            <li><a href="/employees">Lista de Colaboradores</a></li>
+            <li><a href="/trainings">Lista de Formações</a></li>
+            <li><a href="/reports">Gerar relatórios</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="content-box"> 
+            <h1 class="header"> Ficheiros disponíveis</h1> 
+            <div class="scroll-container"> 
+                <ul id="file-list">
+                    {% for file in files %}
+                        <li><a class="file-a" href="{{ url_for('get_file', filename=file) }}">{{ file }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
